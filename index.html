@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/png">
+    </head>
+    <body>
+        <h1  class="mb-4 fw-bold">Monish House</h1>
+        <table border="0" cellspacing="0" class="table table-bordered  table-hover align-middle shadow-sm">
+           <thead class="table-dark">
+              <tr>
+                <th>
+                    NAME
+                </th>
+                <th>FLATE NAME</th>
+                <th>ADHAAR NO.</th>
+                <th class="text-center">Action</th>
+              </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td>
+                    Monish Garg
+                </td>
+                <td>Shyam Sadan</td>
+                <td>73673845743876</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rohit Panwar
+                </td>
+                <td> Padharo saa</td>
+                <td>9876544567567</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Khushi Sharma
+                </td>
+                <td>Mannat</td>
+                <td>345678989234</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Krish Rathore
+                </td>
+                <td>Shivshakti</td>
+                <td>73677654326</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Avni Surana
+                </td>
+                <td>Jay JI Nandra</td>
+                <td>73673845743876</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hiral Bansal
+                </td>
+                <td> Palm Beach House</td>
+                <td>73673845743876</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ayush Bansal
+                </td>
+                <td>MY House</td>
+                <td>8377528626477</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Akshat Malpani
+                </td>
+                <td>Dusshanand Sadan</td>
+                <td>8698249785787</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ayush Bansal
+                </td>
+                <td>MY House</td>
+                <td>8377528626477</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Lakshay Maneshwar
+                </td>
+                <td>Naughty House</td>
+                <td>8377528626477</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     Tanish Garg
+                </td>
+                <td>SunSet Point</td>
+                <td>8377528626477</td>
+                <td class="text-center">
+                    <button class="btn btn-success btn-lg">VIEW</button>
+                    <button class="btn btn-warning btn-lg">EDIT</button>
+                    <button onclick="deleteElement(this)" class="btn btn-danger btn-lg">DELETE</button>
+                </td>
+            </tr>
+
+           </tbody>
+           <tfoot></tfoot>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            <script>
+                function deleteElement(elem){
+                  console.log(elem.closest('tr'));
+                  elem.closest('tr').remove();
+                  console.log("deleteElementary from Delete Button From all Table")
+
+                }
+            </script>
+        </table>
+
+
+
+    </body>
+</html>
