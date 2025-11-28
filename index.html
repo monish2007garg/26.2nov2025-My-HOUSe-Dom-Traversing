@@ -89,7 +89,7 @@
                 <td> Palm Beach House</td>
                 <td>73673845743876</td>
                 <td class="text-center">
-                    <button class="btn btn-success btn-lg btn-outline-primary">VIEW</button>
+                    <button class="btn btn-success btn-lg btn-outline-primary" onclick="showFullName(this)">VIEW</button>
                     <button class="btn btn-warning btn-lg btn-outline-success">EDIT</button>
                     <button onclick="deleteElement(this)" type="button" class="btn btn-danger btn-lg btn-outline-warning">DELETE</button>
                 </td>
@@ -165,6 +165,21 @@
                   console.log("deleteElementary from Delete Button From all Table")
 
                 }
+                let showFullName=(e)=>{
+                    console.log('Hello');
+                    console.log(e.closest('tr'));
+                    console.log(e.closest('tr').querySelector('td:nth-child(4)'));
+                    console.log(e.closest('tr').querySelector('td:first-child'));
+                    console.log(e.closest('tr').querySelector('td:nth-child(2)'));
+                    //console.log(e.closest('tr').querySelector('td:nth-child(4)').innerHTML);
+                    console.log(e.closest('tr').querySelector('td:first-child').innerHTML);
+                    console.log(e.closest('tr').querySelector('td:nth-child(2)').innerHTML);
+
+                    let name = e.closest('tr').querySelector('td:first-child').innerHTML;
+                    let surname = e.closest('tr').querySelector('td:nth-child(2)').innerHTML;
+
+                    console.log(`Hellooooo India KI Audience !! Kese HOO`);
+                } 
             </script>
         </table>
         </div>
